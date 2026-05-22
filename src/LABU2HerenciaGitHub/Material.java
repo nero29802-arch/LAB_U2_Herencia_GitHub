@@ -5,7 +5,7 @@
 package LABU2HerenciaGitHub;
 
  //Atributos privados o encapsulados
-public  class Material { 
+public  abstract class Material { 
     private String titulo;
     private boolean disponible;
     private static int contadorMateriales = 0;
