@@ -7,7 +7,7 @@ package LABU2HerenciaGitHub;
  * Aprendé más Java en mi canal: https://www.youtube.com/c/CharlyCimino
  * Encontrá más código en mi repo de GitHub: https://github.com/CharlyCimino
  */
-
+    
 
 //Esta es la subclase tesis heredada con extends de la clase material
 public class Tesis extends Material {
@@ -16,6 +16,7 @@ public class Tesis extends Material {
     private String autor;
     private String universidad;
     private int anioPublicacion;
+
 
     //metodo constructor de la subclase Tesis
     public Tesis(String titulo, String autor, String universidad, int anioPublicacion) {
@@ -28,6 +29,7 @@ public class Tesis extends Material {
         this.universidad = universidad;
         this.anioPublicacion = anioPublicacion;
     }
+
 
     //getters de autor, universidad y año de publicacion 
     public String getAutor() {
@@ -42,6 +44,7 @@ public class Tesis extends Material {
         return anioPublicacion;
     }
 
+
     //setters de autor, universidad y año de publicacion 
     public void setAutor(String autor) {
         this.autor = autor;
@@ -55,6 +58,7 @@ public class Tesis extends Material {
         this.anioPublicacion = anioPublicacion;
     }
     
+  
     // sobrescritura del método mostrarInfo de la clase material
     @Override
     public void mostrarInfo(){

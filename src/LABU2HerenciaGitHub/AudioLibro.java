@@ -1,6 +1,10 @@
 
 package LABU2HerenciaGitHub;
 
+
+import LABU2HerenciaGitHub.Material;
+
+
 /**
  *
  * @author Charly Cimino
@@ -28,7 +32,9 @@ public class AudioLibro extends Material {
         this.duracionMinutos = duracionMinutos;
     }
 
+
     //getters de narrador y duracionMinutos
+
     public String getNarrador() {
         return narrador;
     }
@@ -38,6 +44,7 @@ public class AudioLibro extends Material {
     }
 
     //setters narrador y duracionMinutos
+ 
     public void setNarrador(String narrador) {
         this.narrador = narrador;
     }
@@ -54,8 +61,10 @@ public class AudioLibro extends Material {
         super.mostrarInfo();
         
         //muestra la informacion de la claseAudioLibro
+
         System.out.println("Narrador: " + narrador);
         System.out.println("DuracionMinutos " + duracionMinutos);
     }
-        
 }
+        
+
