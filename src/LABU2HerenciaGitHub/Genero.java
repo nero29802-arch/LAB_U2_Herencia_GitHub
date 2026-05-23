@@ -8,6 +8,7 @@ package LABU2HerenciaGitHub;
  * Encontrá más código en mi repo de GitHub: https://github.com/CharlyCimino
  */
 
+
 //creacion de una clase enum 
 public enum Genero {
 

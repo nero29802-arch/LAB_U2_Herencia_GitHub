@@ -8,6 +8,7 @@ package LABU2HerenciaGitHub;
  * Encontrá más código en mi repo de GitHub: https://github.com/CharlyCimino
  */
 
+
 //Esta es la subclase tesis heredada con extends de la clase material
 public class Tesis extends Material {
     
@@ -67,7 +68,4 @@ public class Tesis extends Material {
         System.out.println("Año de publicacion: " + anioPublicacion);
     }
     
-    
-    
-
 }

@@ -1,8 +1,6 @@
 
 package LABU2HerenciaGitHub;
 
-import LABU2HerenciaGitHub.Material;
-
 /**
  *
  * @author Charly Cimino
@@ -12,6 +10,7 @@ import LABU2HerenciaGitHub.Material;
 
 //Esta es la subclase AudioLibro heredada con extends de la clase material 
 public class AudioLibro extends Material { 
+    
 
     // estos son los atributos privados de la subclase AudioLibro
     private String narrador;
@@ -54,7 +53,7 @@ public class AudioLibro extends Material {
         //Llamado de mostrarInfo de la clase material
         super.mostrarInfo();
         
-        //muestra la informacion de la clase audioLibro
+        //muestra la informacion de la claseAudioLibro
         System.out.println("Narrador: " + narrador);
         System.out.println("DuracionMinutos " + duracionMinutos);
     }
