@@ -13,6 +13,7 @@ package LABU2HerenciaGitHub;
 public enum Genero {
 
     //tipos de generos que contiene para libros
+
     Programacion,
     BASES_DATOS, 
     REDES, 
